@@ -1,4 +1,4 @@
-demosatconferences
+Demos at Conferences / User Groups
 ==================
 
-Demos done at conferences / user group talks
+More can be found in azure-snippets and winrt-snippets repositories
