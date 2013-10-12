@@ -17,3 +17,8 @@ Samples wurden mit Visual Studio 2013 erstellt.
 * [How to implement Periodic Notifications in Windows Store apps with Azure Mobile Services Custom API](http://www.nickharris.net/2013/08/how-to-implement-periodic-notification-in-windows-store-apps-with-azure-mobile-services-custom-api/)
 * [How to handle WNS Response codes and Expired Channels in your Windows Azure Mobile Service](http://www.nickharris.net/2013/08/how-to-handle-wns-response-codes-and-expired-channels-in-your-windows-azure-mobile-service/)
 * [Win8 Admin Table Viewer](https://github.com/amitapl/MobileServiceAdminTableViewer) nicht angepasst an aktuelle API
+
+## Datenquellen
+
+* [aktuelle Ozondaten Österreich ](http://data.gv.at/datensatz/?id=8b3b3cdf-2be6-4f0b-8c86-f6be67e5b002)
+* [Feinstaub PM10 Niederösterreich](http://data.gv.at/datensatz/?id=8b057f32-1312-40ae-ae51-9aa0a0d372ca)
