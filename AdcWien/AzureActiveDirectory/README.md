@@ -1,7 +1,7 @@
 Windows Azure Active Directory für Entwickler
 ==================
 
-Alle Samples sind mit VS2013 RTM erstellt.
+Samples wurden mit Visual Studio 2013 erstellt.
 
 [Federation Lab JWT Decoder](http://openidtest.uninett.no/jwt)
 
