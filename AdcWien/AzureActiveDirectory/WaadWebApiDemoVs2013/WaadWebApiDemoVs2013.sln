@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaadWebApiDemoVs2013", "WaadWebApiDemoVs2013\WaadWebApiDemoVs2013.csproj", "{4E3D2FC9-6826-44D4-808E-22E0388B85A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestClient", "MyTestClient\MyTestClient.csproj", "{02F38FE9-5BC5-4F8D-A5A7-3DEF101D1E70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3D2FC9-6826-44D4-808E-22E0388B85A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3D2FC9-6826-44D4-808E-22E0388B85A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3D2FC9-6826-44D4-808E-22E0388B85A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3D2FC9-6826-44D4-808E-22E0388B85A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02F38FE9-5BC5-4F8D-A5A7-3DEF101D1E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02F38FE9-5BC5-4F8D-A5A7-3DEF101D1E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02F38FE9-5BC5-4F8D-A5A7-3DEF101D1E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02F38FE9-5BC5-4F8D-A5A7-3DEF101D1E70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

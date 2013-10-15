@@ -1,0 +1,9 @@
+﻿<Window x:Class="MyTestClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="TestIt" Content="Test Web API Call" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top" Width="120" Click="TestIt_Click"/>
+
+    </Grid>
+</Window>
