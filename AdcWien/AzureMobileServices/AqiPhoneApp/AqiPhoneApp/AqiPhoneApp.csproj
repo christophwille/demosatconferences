@@ -98,6 +98,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MobileServiceQueryExtensions.cs" />
     <Compile Include="Models\Feedback.cs" />
     <Compile Include="Models\Messpunkt.cs" />
     <Compile Include="Models\StationPush.cs" />

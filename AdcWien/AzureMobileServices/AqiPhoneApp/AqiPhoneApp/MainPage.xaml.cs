@@ -5,6 +5,7 @@ using System.Net;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
+using AqiPhoneApp.Models;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using AqiPhoneApp.Resources;
@@ -16,6 +17,14 @@ namespace AqiPhoneApp
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void LoadAll_OnClick(object sender, RoutedEventArgs e)
+        {
+            var client = new AqiClient();
+            var svcClient = client.CreateMobileServiceReference();
+
+            var messpunkte = await svcClient.GetTable<Messpunkt>().LoadAllAsync(50);
         }
 
         private async void InvokeSingleMesspunkt_OnClick(object sender, RoutedEventArgs e)
