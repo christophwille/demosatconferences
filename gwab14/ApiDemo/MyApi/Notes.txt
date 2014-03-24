@@ -1,0 +1,7 @@
+﻿What's in this sample?
+
+
+MyApi/manifest.json: see appPermissions
+Controllers/ValuesController: test method
+
+MyApiClient/MainPage.xaml.cs: all client functionality

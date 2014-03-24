@@ -1,0 +1,9 @@
+﻿What's in this sample?
+
+Controllers/AccountController/SignIn (see also web.config): "/" is not protected, manual sign in URL creation
+Models/TenantDbContext (+ .sql): Required method and DDL for putting tenant tables into existing datbase
+MyAuthManager: custom ClaimsAuthenticationManager that gets objectId and groups from AAD and puts them into the token
+ClaimsPrincipalExtensions: simple helpers for retrieving info from token
+GraphOperations: methods for interacting with Graph API via GraphHelper library
+Controllers/HomeController/UserProfile: rewritten for GraphOperations
+Controllers/HomeController/Role<x>Only: tests for group membership

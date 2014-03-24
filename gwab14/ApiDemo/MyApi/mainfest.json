@@ -1,0 +1,55 @@
+{
+  "appId": "c062e1a8-1a15-45ef-a7d4-3188b9376f70",
+  "appMetadata": null,
+  "appPermissions": [
+	{
+	"claimValue": "policy.all",
+	"description": "Allow full access to this API",
+	"directAccessGrantTypes": [],
+	"displayName": "Full access",
+	"impersonationAccessGrantTypes": [
+	{
+	"impersonated": "User",
+	"impersonator": "Application"
+	}
+	],
+	"isDisabled": false,
+	"origin": "Application",
+	"permissionId": "b69ee3c9-c40d-4f2a-ac80-961cd1534e40",
+	"resourceScopeType": "Global",
+	"userConsentDescription": "Full Access",
+	"userConsentDisplayName": "Full Access"
+	}
+	],
+  "availableToOtherTenants": false,
+  "displayName": "MyApi",
+  "errorUrl": null,
+  "homepage": "https://localhost:44310/",
+  "identifierUris": [
+	"https://extensiondemo.onmicrosoft.com/MyApi"
+  ],
+  "keyCredentials": [],
+  "logoutUrl": null,
+  "passwordCredentials": [],
+  "publicClient": null,
+  "replyUrls": [
+	"https://localhost:44310/"
+  ],
+  "requiredResourceAccess": [],
+  "resourceApplicationSet": null,
+  "samlMetadataUrl": null,
+  "webApi": null,
+  "webApp": null,
+  "notifications": [],
+  "objectType": "Application",
+  "objectId": "f429e130-230f-4e07-9c3b-ab35b30dc3d3",
+  "softDeletionTimestamp": null,
+  "createdOnBehalfOf": null,
+  "createdObjects": [],
+  "manager": null,
+  "directReports": [],
+  "members": [],
+  "memberOf": [],
+  "owners": [],
+  "ownedObjects": []
+}
