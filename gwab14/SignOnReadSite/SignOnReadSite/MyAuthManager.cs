@@ -24,10 +24,6 @@ namespace SignOnReadSite
                     graphOps.Initialize(incomingPrincipal);
 
                     var user = graphOps.GetUser(upn, expandGroups: true);
-
-                    var idClaim = new Claim(ClaimTypes.UserData, user.ObjectId, null, ClaimsIssuerName);
-                    ((ClaimsIdentity)incomingPrincipal.Identity).AddClaim(idClaim);
-
                     List<Group> groups = user.MemberOf.OfType<Group>().Select(mo => (Group)mo).ToList();
 
                     var roleClaims = groups.Select(g => new Claim(ClaimTypes.Role, g.DisplayName, null, ClaimsIssuerName));

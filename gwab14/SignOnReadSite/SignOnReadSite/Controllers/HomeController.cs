@@ -41,6 +41,9 @@ namespace SignOnReadSite.Controllers
         [Authorize]
         public ActionResult UserProfile()
         {
+#if DEBUG
+            ClaimsPrincipal.Current.DebugPrintAllClaims();
+#endif
             string aadObjectIdOfUser = ClaimsPrincipal.Current.GetObjectId();
 
             var graphOps = new GraphOperations();
