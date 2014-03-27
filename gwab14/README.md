@@ -11,7 +11,11 @@ diesem Vortrag betrachten wir die Features von WAAD aus der Entwicklersicht - wa
 und kann wie im eigenen Projekt eingesetzt werden.
 
 
-[Azure Identity 101 @Channel9](http://channel9.msdn.com/Shows/Windows-Azure-Friday/Azure-Identity-101-Vittorio-explains-Federation-and-the-basics-of-Azure-Active-Directory) mehrteilig
+## AAD & Claims
+
+* [Azure Identity 101 @Channel9](http://channel9.msdn.com/Shows/Windows-Azure-Friday/Azure-Identity-101-Vittorio-explains-Federation-and-the-basics-of-Azure-Active-Directory) mehrteilig (101 - 106)
+* [A Guide to Claims-Based Identity and Access Control (2nd Edition)](http://msdn.microsoft.com/en-us/library/ff423674.aspx)
+* [Federation Lab JWT Decoder](http://openidtest.uninett.no/jwt)
 
 ## Graph API
 
@@ -37,7 +41,4 @@ und kann wie im eigenen Projekt eingesetzt werden.
 * [New OAuth2.0 features](http://blogs.technet.com/b/ad/archive/2014/03/12/harnessing-the-power-of-oauth2-0-to-write-azure-ad-connected-apps-for-the-web-ios-android-amp-windows.aspx)
 * [Announcing Office 365 API Tools for Visual Studio — Preview](http://blogs.msdn.com/b/officeapps/archive/2014/03/12/announcing-office-365-api-tools-for-visual-studio-preview.aspx)
 * [Office 365 APIs: Get contacts, documents, mails, and calendar in Windows 8 app](http://code.msdn.microsoft.com/Office-365-APIs-Get-41eebcdf)
-
-## Non-AAD Use of Graph
-
-* [Extending the Windows Azure Graph Using the Windows Azure Graph Store](http://blogs.msdn.com/b/aadgraphteam/archive/2013/06/24/extending-the-windows-azure-graph-using-the-windows-azure-graph-store.aspx)
+* [Video: Office 365 API Tools for Visual Studio](http://channel9.msdn.com/Blogs/funkyonex/Office-365-API-Tools-for-Visual-Studio)
