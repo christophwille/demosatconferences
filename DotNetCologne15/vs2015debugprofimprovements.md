@@ -18,6 +18,11 @@ Siehe auch vslinks.txt
 * [Historical Debugging with IntelliTrace in Visual Studio 2015](http://channel9.msdn.com/Events/Build/2015/3-771)
 * [New XAML Tools in Visual Studio 2015](http://channel9.msdn.com/Events/Build/2015/2-697)
 
+Zum Zeitpunkt des Vortrags aktuellste MSDN Magazine Artikel:
+
+* [Analyze Performance While Debugging in Visual Studio 2015](https://msdn.microsoft.com/en-gb/magazine/dn973013.aspx)
+* [Use IntelliTrace to Diagnose Issues Faster](https://msdn.microsoft.com/en-gb/magazine/dn973014.aspx)
+
 ## Analyzers & Refactorings
 
 * [C# Essentials](https://visualstudiogallery.msdn.microsoft.com/a4445ad0-f97c-41f9-a148-eae225dcc8a5)

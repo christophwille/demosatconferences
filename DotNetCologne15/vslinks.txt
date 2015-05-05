@@ -30,6 +30,7 @@ http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/18/perftips-performance-
 http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/intellitrace-in-visual-studio-ultimate-2015.aspx
 http://blogs.msdn.com/b/visualstudioalm/archive/2015/04/29/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-social-club.aspx
 http://blogs.msdn.com/b/visualstudioalm/archive/2015/01/16/walkthrough-of-live-debugging-using-intellitrace-in-visual-studio-2015-text-editor.aspx
+http://blogs.msdn.com/b/visualstudio/archive/2015/05/04/introducing-visual-studio-s-network-tool.aspx
 
 CodeMap
 http://blogs.msdn.com/b/visualstudioalm/archive/2015/02/23/code-map-improvements-in-visual-studio-2015-ctp6.aspx

@@ -20,7 +20,7 @@ Dokumentation
 
 ## Artikel
 
-Getting Started Series von shellmonger
+Getting Started Series von Adrian Hall
 
 * [1: The Database](http://www.shellmonger.com/?p=3281)
 * [2: Login Process](http://www.shellmonger.com/?p=3411)
@@ -32,12 +32,9 @@ Getting Started Series von shellmonger
 * [8: Accessing the identity](http://www.shellmonger.com/?p=3961)
 * [9: squashing bugs](http://www.shellmonger.com/?p=4091)
 
-Advanced
-
-* [Using Two Factor Identity in ASP.NET 5](http://blog.simontimms.com/2015/02/23/using-two-factor-auth-in-asp-net-5/)
-* [ASP.NET 5 and AngularJS Part 6, Security](http://stephenwalther.com/archive/2015/01/29/asp-net-5-and-angularjs-part-6-security)
-
+Zum Zeitpunkt des Vortrags war der Sourcecode nicht kompatibel mit VS2015 RC
 
 ## Vermischtes
 
+* [ASP.NET 5 and AngularJS Part 6, Security](http://stephenwalther.com/archive/2015/01/29/asp-net-5-and-angularjs-part-6-security)
 * [OAuth for ASP.NET](http://www.oauthforaspnet.com/)
