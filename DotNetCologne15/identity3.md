@@ -14,6 +14,10 @@ Security schadet heute nicht.
 * [Für ASP.NET 4.6](https://aspnetidentity.codeplex.com/) v2.2.1 zum Zeitpunkt des Vortrags
 * [Für ASP.NET 5.0](https://github.com/aspnet/identity) v3.0 zum Zeitpunkt des Vortrags
 
+Dokumentation
+
+* [aspnet Docs Security](http://docs.asp.net/en/latest/security/index.html)
+
 ## Artikel
 
 Getting Started Series von shellmonger
