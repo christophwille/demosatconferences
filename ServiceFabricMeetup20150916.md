@@ -23,3 +23,4 @@ man in Service Fabric einsteigen kann sehen wir uns in diesem Vortrag an.
 * [Microsoft Azure Service Fabric Architecture](https://channel9.msdn.com/Events/Build/2015/2-640)
 * [Deep Dive into Microsoft Azure Service Fabric Reliable Actors](https://channel9.msdn.com/Events/Build/2015/2-66)
 * [Deploying and Managing Services with Microsoft Azure Service Fabric](https://channel9.msdn.com/Events/Build/2015/2-717)
+
