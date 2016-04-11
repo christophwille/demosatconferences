@@ -1,0 +1,37 @@
+https://blogs.msdn.microsoft.com/sqlsecurity/
+
+
+Overview and Roadmap for Microsoft SQL Server Security
+https://channel9.msdn.com/Events/Ignite/2015/BRK2570
+
+
+Always Encrypted
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-always-encrypted-azure-key-vault/
+https://msdn.microsoft.com/library/mt163865.aspx
+https://blogs.msdn.microsoft.com/sqlsecurity/2015/08/27/using-always-encrypted-with-entity-framework-6/
+
+
+Transparent Data Encryption (TDE)
+https://msdn.microsoft.com/library/dn948096.aspx
+
+
+AAD Authentication
+https://blogs.msdn.microsoft.com/sqlsecurity/2016/02/09/token-based-authentication-support-for-azure-sql-db-using-azure-ad-auth/
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-aad-authentication/
+
+
+Row Level Security
+https://azure.microsoft.com/en-us/documentation/videos/row-level-security-in-azure-sql-database/
+https://blogs.msdn.microsoft.com/sqlsecurity/2015/12/01/row-level-security-block-predicates-are-generally-available-on-azure-sql-database/
+https://msdn.microsoft.com/library/dn765131.aspx 
+https://azure.microsoft.com/en-us/documentation/articles/web-sites-dotnet-entity-framework-row-level-security/
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-tools-multi-tenant-row-level-security/
+https://www.mssqltips.com/sqlservertip/4028/sql-server-2016-row-level-security-example/ 
+https://rlssamples.codeplex.com/
+
+
+Dynamic Data Masking
+https://blogs.msdn.microsoft.com/sqlsecurity/2015/10/31/dynamic-data-masking-is-now-generally-available-for-azure-sql-database/
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-dynamic-data-masking-get-started/
+https://blogs.technet.microsoft.com/dataplatforminsider/2016/01/25/use-dynamic-data-masking-to-obfuscate-your-sensitive-data/
+

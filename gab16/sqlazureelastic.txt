@@ -1,0 +1,29 @@
+Learning Map
+	https://azure.microsoft.com/en-us/documentation/learning-paths/sql-database-elastic-scale/ 
+
+
+Sharding
+	https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-database-client-library/
+	https://github.com/Azure/elastic-db-tools
+	https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-scale-get-started/
+
+
+Elastic Db Transactions
+	https://azure.microsoft.com/en-us/blog/elastic-database-transactions-general-availability/
+
+
+Building Multitenant SaaS Applications with Tenant Isolation and Unlimited Scale on Azure SQL Database
+	https://channel9.msdn.com/Events/Build/2016/P522
+
+https://github.com/Microsoft/WingTipTickets (HOL)
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-scale-use-entity-framework-applications-visual-studio/
+
+
+Older Videos 
+
+Microsoft Azure SQL Database - New ISV Resource Pooling Model Drilldown: The What, Why and How
+	https://channel9.msdn.com/Events/Ignite/2015/BRK2573
+
+Elastic Scale for Microsoft Azure SQL Database
+	https://channel9.msdn.com/Events/Ignite/2015/BRK3568
+
