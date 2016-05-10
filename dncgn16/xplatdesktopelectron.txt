@@ -1,0 +1,35 @@
+Getting Started
+
+http://electron.atom.io/
+https://github.com/sindresorhus/awesome-electron
+
+https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658
+http://www.dontpaniclabs.com/blog/post/2015/08/04/github-electron-tutorial-using-electron-boilerplate/
+https://github.com/reverentgeek/electron-workshop
+
+
+Electron & VS Code
+
+http://electron.rocks/debugging-electron-in-vs-code-revised/
+http://www.mylifeforthecode.com/getting-started-with-electron-in-visual-studio-code/
+
+
+Videos
+
+The State of Electron: https://www.youtube.com/watch?v=RaPmi-33rfc
+Cross-Platform Desktop Apps with Electron: https://www.youtube.com/watch?v=Xs3Oc4weZbw 
+
+
+"Built with Electron" (Sampling)
+
+https://www.jayway.com/2016/03/09/interactive-c-script-editor-built-electron-edgejs/
+https://github.com/chribben/x-repl
+
+https://atom.io/
+https://code.visualstudio.com/
+http://storageexplorer.com/
+https://www.gitkraken.com/
+https://keeweb.info/
+https://github.com/ethereum/mist
+https://github.com/nylas/N1
+https://github.com/ekonstantinidis/gitify
