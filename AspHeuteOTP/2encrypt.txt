@@ -1,0 +1,10 @@
+Hallo Christian,
+
+in dieser verschlüsselten Nachricht geht um es ganz tolle Geheimnisse
+(also genau genommen um keines, aber wen außer der NSA - der National
+Security Agency - wird das schon stören). Zum Verschlüsseln dieser
+Nachricht braucht niemand anzutreten - das geht ganz einfach nicht!
+
+Onetime Pads sind die dafür einfachste Möglichkeit.
+
+Yours truly, Christoph

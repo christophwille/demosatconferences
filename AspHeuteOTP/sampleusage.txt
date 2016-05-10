@@ -1,0 +1,16 @@
+D:\>padgen
+usage: padgen padfilename padfilesize
+
+D:\>padgen mypad.bin 200000
+Onetime pad generated successfully
+
+D:\>padxor
+usage: padxor inputfile padfile padstart outputfile
+
+D:\>padxor otp.cs mypad.bin 0 otp.cs.enc.txt
+Operation completed successfully
+Last pad byte used was @ position: 4658
+
+D:\>padxor otp.cs.enc.txt mypad.bin 0 otp.cs.dec.txt
+Operation completed successfully
+Last pad byte used was @ position: 4658

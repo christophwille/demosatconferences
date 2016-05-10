@@ -1,0 +1,12 @@
+Verschlüsselte Nachrichten sind durch ein Faktum leicht als solche erkenntlich: sie
+sind kaum komprimierbar. Es gibt aber einen Weg, entsprechende "Nachfragen" zu
+entkräften:
+
+Die Originalmeldung wird völlig normal mit dem OTP in ciphertext1 codiert. Danach
+wird ciphertext1 mit Hilfe einer Dummynachricht nochmals verschlüsselt, was dann
+ciphertext2 ergibt. Dieser wird verschickt, das echte Pad (OTP) vernichtet.
+
+Wird man aufgefordert, ciphertext2 zu entschlüsseln, "entschlüsselt" man mit ciphertext1,
+was wieder die Dummynachricht ergibt. 
+
+Beispiel: fooleverybody.bat
