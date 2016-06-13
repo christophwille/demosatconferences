@@ -1,0 +1,25 @@
+Dev Resources
+
+https://graph.microsoft.io/
+https://oauthplay.azurewebsites.net/
+
+
+Articles / Videos
+
+https://dev.office.com/blogs/introduction-to-microsoft-graph-net-sdk
+https://channel9.msdn.com/Shows/Office-Dev-Show/Office-Dev-Show-Episode-27-Azure-AD-Converged-Authentication-and-the-Microsoft-Graph
+http://simonjaeger.com/understand-the-microsoft-graph-with-a-console-app/
+https://blogs.msdn.microsoft.com/richard_dizeregas_blog/2016/06/07/using-onedrive-and-excel-apis-in-the-microsoft-graph-for-app-storage/
+
+
+Samples
+
+https://github.com/microsoftgraph
+https://github.com/dougperkes/Visual-Graph-Explorer
+https://github.com/Microsoft-Build-2016/CodeLabs-Office
+https://github.com/Cecildt/angular2-O365-desktop-app
+https://github.com/OfficeDev/PowerPoint-Add-in-Microsoft-Graph-ASPNET-InsertChart
+https://dev.office.com/blogs/javascript-and-microsoft-graph-quick-contacts-sample
+https://github.com/dkershaw10/Microsoft-Graph-UWP-Connect-SDK
+
+
