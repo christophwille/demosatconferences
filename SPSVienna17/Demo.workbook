@@ -1,0 +1,81 @@
+---
+uti: com.xamarin.workbook
+id: 9c88657d-b49e-4c21-b832-6f4209b12872
+title: Demo
+platforms:
+- DotNetCore
+packages:
+- id: Microsoft.Graph
+  version: 1.6.2
+- id: Microsoft.Identity.Client
+  version: 1.1.0-preview
+---
+
+```csharp
+#r "Newtonsoft.Json"
+#r "Microsoft.Identity.Client"
+#r "Microsoft.Graph"
+
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using Microsoft.Identity.Client;
+using Microsoft.Graph;
+```
+
+Instantiate the PCA
+
+```csharp
+var pca = new PublicClientApplication("10fc86fa-4f8d-4c7c-b64e-450ee9c1c386");
+```
+
+Request the token for scopes
+
+```csharp
+string[] scopes = { "User.Read" };
+var ar = await pca.AcquireTokenAsync(scopes);
+```
+
+Retrieve /me manually
+
+```csharp
+HttpClient client = new HttpClient();
+HttpRequestMessage message = new HttpRequestMessage(HttpMethod.Get, "https://graph.microsoft.com/v1.0/me");
+message.Headers.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("bearer", ar.AccessToken);
+HttpResponseMessage response = await client.SendAsync(message);
+string responseString = await response.Content.ReadAsStringAsync();
+
+string output = "";
+if (response.IsSuccessStatusCode)
+{
+	JObject user = JObject.Parse(responseString);
+	output = "Display name: " + user["displayName"].ToString() +
+        ", Id: " + user["id"].ToString() + 
+        ", UPN: " + user["userPrincipalName"].ToString();
+}
+```
+
+```csharp
+output
+```
+
+Using Microsoft Graph .NET SDK - instantiate the the GraphServiceClient
+
+```csharp
+// https://github.com/microsoftgraph/msgraph-sdk-dotnet/blob/dev/docs/overview.md
+var graphserviceClient = new GraphServiceClient(
+	new DelegateAuthenticationProvider(
+		(requestMessage) =>
+		{
+			requestMessage.Headers.Authorization = new AuthenticationHeaderValue("bearer", ar.AccessToken);
+			return Task.FromResult(0);
+		}));
+```
+
+Now access Me via Request().GetAsync()
+
+```csharp
+// https://github.com/microsoftgraph/msgraph-sdk-dotnet/blob/dev/docs/overview.md
+var me = await graphserviceClient.Me.Request().GetAsync();
+```

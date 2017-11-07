@@ -26,3 +26,12 @@ such as delta query and webhooks.
 * [Microsoft Graph for the .NET Developer](https://channel9.msdn.com/Events/dotnetConf/2017/T229)
 * [The keys to the cloud: Use Microsoft identities to sign in and access API from your mobile+web apps](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3207)
 * [Modern business processes with Microsoft Graph and Azure Functions](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3202)
+
+## Tools and more
+
+* [Azure Active Directory admin center](https://aad.portal.azure.com/)
+* [Application Registration Portal](https://apps.dev.microsoft.com/)
+* [Postman](https://www.getpostman.com/)
+* [ngrok](https://ngrok.com/)
+* [REST Client for VS Code](http://josephwoodward.co.uk/2017/10/rest-%20client-for-vs-Code-an-elegant-alternative-postman)
+* [jwt.ms](http://jwt.ms/) never paste production tokens!
