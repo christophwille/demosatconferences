@@ -3,12 +3,14 @@ uti: com.xamarin.workbook
 id: 9c88657d-b49e-4c21-b832-6f4209b12872
 title: Demo
 platforms:
-- DotNetCore
+- WPF
 packages:
 - id: Microsoft.Graph
   version: 1.6.2
 - id: Microsoft.Identity.Client
   version: 1.1.0-preview
+- id: Newtonsoft.Json
+  version: 10.0.3
 ---
 
 ```csharp
@@ -78,4 +80,23 @@ Now access Me via Request().GetAsync()
 ```csharp
 // https://github.com/microsoftgraph/msgraph-sdk-dotnet/blob/dev/docs/overview.md
 var me = await graphserviceClient.Me.Request().GetAsync();
+```
+
+Getting another token (ie refresh might be necessary) - the right way
+
+```csharp
+bool withUi = false;
+try 
+{
+    ar = await pca.AcquireTokenSilentAsync(scopes, pca.Users.FirstOrDefault());
+}
+catch (MsalUiRequiredException)
+{
+    withUi = true;
+    ar = await pca.AcquireTokenAsync(scopes);
+}
+```
+
+```csharp
+withUi
 ```
