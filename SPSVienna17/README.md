@@ -10,11 +10,12 @@ such as delta query and webhooks.
 ## Links
 
 * [Graph Explorer](http://aka.ms/ge)
-* [Microsoft Graph on GitHub](https://github.com/MicrosoftGraph)
+* [Microsoft Graph on GitHub](https://github.com/MicrosoftGraph) - [Microsoft Graph Snippets Sample for ASP.NET 4.6](https://github.com/microsoftgraph/aspnet-snippets-sample/) demoed
 * [Documentation](https://developer.microsoft.com/en-us/graph/docs/concepts/overview)
 * [Official Samples](https://developer.microsoft.com/en-us/graph/code-samples-and-sdks)
 * [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet)
 * [StackOverflow microsoft-graph](https://stackoverflow.com/questions/tagged/microsoft-graph)
+* Important v2 endpoint docs [What's different about the v2.0 endpoint?](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-compare) and [Should I use the v2.0 endpoint?](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-limitations)
 * [Azure Functions Microsoft Graph bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-microsoft-graph)
 
 ## Videos (mostly Ignite)
@@ -30,8 +31,8 @@ such as delta query and webhooks.
 ## Tools and more
 
 * [Azure Active Directory admin center](https://aad.portal.azure.com/)
-* [Application Registration Portal](https://apps.dev.microsoft.com/)
-* [Postman](https://www.getpostman.com/)
-* [ngrok](https://ngrok.com/)
+* [Application Registration Portal](https://apps.dev.microsoft.com/) v2 endpoint
+* [Postman](https://www.getpostman.com/) see article [Using Postman to call the Graph API using Azure Active Directory](https://blogs.msdn.microsoft.com/softwaresimian/2017/10/05/using-postman-to-call-the-graph-api-using-azure-active-directory-aad/)
+* [ngrok](https://ngrok.com/) for tunneling to localhost (WebHooks scenario)
 * [REST Client for VS Code](http://josephwoodward.co.uk/2017/10/rest-%20client-for-vs-Code-an-elegant-alternative-postman)
 * [jwt.ms](http://jwt.ms/) never paste production tokens!
