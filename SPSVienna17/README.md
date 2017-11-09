@@ -17,6 +17,7 @@ such as delta query and webhooks.
 * [Microsoft Graph Client Library for .NET](https://github.com/microsoftgraph/msgraph-sdk-dotnet)
 * [StackOverflow microsoft-graph](https://stackoverflow.com/questions/tagged/microsoft-graph)
 * Important v2 endpoint docs [What's different about the v2.0 endpoint?](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-compare) and [Should I use the v2.0 endpoint?](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-limitations)
+* [Permissions reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
 * [Azure Functions Microsoft Graph bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-microsoft-graph)
 
 ## Videos (mostly Ignite)
