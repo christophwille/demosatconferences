@@ -28,6 +28,7 @@ such as delta query and webhooks.
 * [Microsoft Graph for the .NET Developer](https://channel9.msdn.com/Events/dotnetConf/2017/T229)
 * [The keys to the cloud: Use Microsoft identities to sign in and access API from your mobile+web apps](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3207)
 * [Modern business processes with Microsoft Graph and Azure Functions](https://channel9.msdn.com/Events/Ignite/Microsoft-Ignite-Orlando-2017/BRK3202)
+* [Navigating the Microsoft Graph with Azure Functions](https://channel9.msdn.com/Shows/Azure-Friday/Navigating-the-Microsoft-Graph-with-Azure-Functions)
 
 ## Tools and more
 
