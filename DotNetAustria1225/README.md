@@ -6,4 +6,4 @@ Aspire vastly improves your local developer experience, and Testcontainers can d
 
 Samples https://github.com/christophwille/poc-oh/tree/main/src/TestcontainersPlayground
 
-Recording: TBD
+Recording: https://www.youtube.com/watch?v=4q4TNF_P11Y
